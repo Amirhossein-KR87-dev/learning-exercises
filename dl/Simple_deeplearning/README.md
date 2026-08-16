@@ -1,16 +1,18 @@
-# Persian Digit Recognition with Neural Networks
+# HODA Digit Classification
 
-This project uses a simple Artificial Neural Network (ANN) to recognize Persian handwritten digits using the Hoda dataset.
+A simple Deep Learning practice using TensorFlow/Keras for handwritten digit classification.
 
-The model is built with TensorFlow/Keras and uses OpenCV for image preprocessing.
+## Model
+
+14x14 → Flatten → Dense(64) → Dropout(0.2) → Dense(10)
 
 ## Dataset
 
-This project uses the Hoda Persian Handwritten Digit Dataset.
+HODA handwritten Persian digit dataset.
 
-The dataset contains handwritten Persian digits from 0 to 9.
+I used 5000 samples and resized the images to 14x14.
 
-The dataset file used in this project is:
+## Requirements
 
-```text
-Data_hoda_full.mat
+```bash
+pip install -r requirements.txt

@@ -1,10 +1,6 @@
-
-### `requirements.txt`
-
-```text
 numpy
 opencv-python
-scipy
-tensorflow
-scikit-learn
 matplotlib
+tensorflow
+scipy
+scikit-learn
